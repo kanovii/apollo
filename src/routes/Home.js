@@ -1,6 +1,6 @@
 import * as React from "react";
+import "./Home.css"
 import { gql, useQuery } from "@apollo/client"
-import styled from "styled-components";
 import Movie from "../components/Movie";
 const movieQuery = gql `
     query {
@@ -17,22 +17,27 @@ const Home = () => {
     console.log(loading, error, data)
 
             return(
-                <div>
-                    <div>
+                <div className="container">
+                    <div className="header_box">
                         <div>movies</div>
-                        <div>fine movie you want</div>
+                        <div>find movie you want</div>
                     </div>
-                    {loading ? 
-                        <div>loading...</div> 
-                        : 
-                        data.movies.map(m => 
-                        <Movie 
-                            id={m.id} 
-                            title={m.title} 
-                            medium_cover_image={m.medium_cover_image}
-                            key={m.id} 
-                        />)
-                    }
+                    <div className="at_container">
+                        <div className="movies_container">
+                            {loading ? 
+                                <div>loading...</div> 
+                                : 
+                                data.movies.map(m => 
+                                <Movie 
+                                    id={m.id} 
+                                    title={m.title} 
+                                    medium_cover_image={m.medium_cover_image}
+                                    rating={m.rating}
+                                    key={m.id} 
+                                />)
+                            }
+                        </div>
+                    </div>
                 </div>
             )
 
