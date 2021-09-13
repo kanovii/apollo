@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/apollo/static/css/main.228e1d94.chunk.css",
+    "main.js": "/apollo/static/js/main.3c8e6cf8.chunk.js",
+    "main.js.map": "/apollo/static/js/main.3c8e6cf8.chunk.js.map",
+    "runtime-main.js": "/apollo/static/js/runtime-main.ca82df05.js",
+    "runtime-main.js.map": "/apollo/static/js/runtime-main.ca82df05.js.map",
+    "static/js/2.d6288b81.chunk.js": "/apollo/static/js/2.d6288b81.chunk.js",
+    "static/js/2.d6288b81.chunk.js.map": "/apollo/static/js/2.d6288b81.chunk.js.map",
+    "index.html": "/apollo/index.html",
+    "static/css/main.228e1d94.chunk.css.map": "/apollo/static/css/main.228e1d94.chunk.css.map",
+    "static/js/2.d6288b81.chunk.js.LICENSE.txt": "/apollo/static/js/2.d6288b81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca82df05.js",
+    "static/js/2.d6288b81.chunk.js",
+    "static/css/main.228e1d94.chunk.css",
+    "static/js/main.3c8e6cf8.chunk.js"
+  ]
+}
