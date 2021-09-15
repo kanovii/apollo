@@ -1,6 +1,7 @@
 import * as React from "react";
 import { gql, useQuery } from "@apollo/client"
 import { useParams } from "react-router";
+import  "./Detail.css"
 
 const movieQueryy = gql`
     query movieQuery($id: Int!) {

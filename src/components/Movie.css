@@ -9,7 +9,7 @@
     box-shadow: 1px 1px 5px 2px rgba(88,88,88,0.5);
 }
 .movie_title {
-    width: 230px;
+    width: 300px;
     text-align: center;
     padding: 50% 0;
     bottom: 0;
@@ -39,5 +39,22 @@
     }
     100%{
         box-shadow: 0 0 0 20px rgba(102, 51, 153, 0);
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .movie_img {
+        width: 180px;
+    }
+    .movie_title {
+        width: 180px;
+    }
+}
+@media all and (max-width: 768px) {
+    .movie_img {
+        width: 130px;
+    }
+    .movie_title {
+        width: 130px;
     }
 }

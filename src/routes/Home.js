@@ -1,6 +1,6 @@
 import * as React from "react";
-import "./Home.css"
-import { gql, useQuery } from "@apollo/client"
+import "./Home.css";
+import { gql, useQuery } from "@apollo/client";
 import Movie from "../components/Movie";
 const movieQuery = gql `
     query {
